@@ -1,0 +1,386 @@
+@font-face {
+	font-family: 'gothamroundedbook';
+	src: url('../fonts/gothamroundedbook_21018.eot');
+	src: local('вє'), url('../fonts/gothamroundedbook_21018.woff') format('woff'), url('../fonts/gothamroundedbook_21018.ttf') format('truetype'), url('../fonts/gothamroundedbook_21018.svg') format('svg');
+	font-weight: 350;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamroundedbold';
+	src: url('../fonts/gothamroundedbold_21016.eot');
+	src: local('вє'), url('../fonts/gothamroundedbold_21016.woff') format('woff'), url('../fonts/gothamroundedbold_21016.ttf') format('truetype'), url('../fonts/gothamroundedbold_21016.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamroundedmedium';
+	src: url('../fonts/gothamroundedmedium_21022.eot');
+	src: local('вє'), url('../fonts/gothamroundedmedium_21022.woff') format('woff'), url('../fonts/gothamroundedmedium_21022.ttf') format('truetype'), url('../fonts/gothamroundedmedium_21022.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+html{
+  margin: 0px;
+}
+
+body {
+  font-size: 12px;
+  letter-spacing:2px;
+  line-height: auto;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 700;
+  color: #373737;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5{
+  margin: 0px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #16a085;
+  padding: 0 0 45px 0;
+}
+
+.buttom{
+  text-decoration:none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background-color: #16a085;
+  border-radius: 3px;   
+  color: #ffffff; 
+  text-align:center;
+  border: 0px;
+}
+
+.par{
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 350;
+  text-transform:none;
+  padding: 0 0 70px 0;
+}
+
+.container{
+  width:100%;
+  max-width: 760px;
+  margin: 0 auto;
+} 
+
+/*intro*/ 
+.intro{
+  width: 100%;
+  height: 100vh;
+  background: url(images/intro\ копия.jpg)center no-repeat; 
+  background-size: cover;
+  position:relative;
+  padding-top: 2em;
+}
+
+/*header*/ 
+.header{
+  width:100%;
+  position: absolute;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav_link{
+  text-decoration: none;
+  color: #ffffff; 
+}
+
+/*intro_text*/ 
+.intro_text{
+  position:absolute; 
+  top:50%;
+  transform:translate(0, -50%);
+  left:50%; 
+  margin-left: -220px;
+  color: #ffffff; 
+  text-align:center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.subtitle{
+  font-size: 16px;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 400;
+  text-transform:none;
+}
+
+/*buttom1*/ 
+.buttom_1{
+  display: inline-block;
+  vertical-align: top;
+  position:absolute; 
+  top:64%;
+  transform:translate(0, -50%);
+  left:50%; 
+  margin:0 0 0 -90px;
+}
+
+/*intro_icons*/
+.intro_icons{
+  position:absolute; 
+  top:95%;
+  transform:translate(0, -50%);
+  left:50%; 
+  margin-left: -74px;
+}
+
+.icons{
+  padding-left: 15px;
+}
+
+/*block2*/
+
+.block2{
+  height: 492px;
+  background-color: #f5f6f7;
+  margin: 0;
+  line-height: 24px; 
+}
+
+.block2_margin{
+  padding: 7% 0 0 10%;
+}
+
+.block_2_image{
+  margin:92px 7% 0 0;
+  height:400px;
+  float:right;
+}
+
+
+/*block_3*/
+.block_3{
+  height: 558px;
+  background-color: #fff;
+  line-height: 22px; 
+  margin: 0;
+}
+
+.block3_margin{
+  padding: 7% 0 0 60%;
+}
+
+.block_3_image{
+  margin:146px 7% 0 0;
+  height:412px;
+  float:left;
+}
+
+.numbers{
+  letter-spacing:3.5px;
+  margin-top: 3em;
+}
+
+.skobki3{
+  border: 0px;
+  padding:13px 13px;
+  background-color:#fff;
+}
+
+
+/*block_4*/
+.block_4{
+  height: 484px;
+  background-color: #f5f6f7;
+}
+ .skob4{
+  margin: 0 7% 1em 88%;
+ }
+
+.skobki4{
+  border: 0px;
+  padding:15px 15px;
+  background-color:#f5f6f7;
+  margin-top: 5em;
+}
+
+.skobka_left{
+  background-image: url(images/left.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position:  center;
+
+}
+.skobka_right{
+  background-image: url(images/right.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position:  center;
+}
+
+.block4_text{
+  text-align: center;
+}
+
+
+.our-com{
+  margin: 10px 0 0 0;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform:none;
+}
+
+h3{
+  margin: 15px 0 0 0;
+  font-size: 16px;
+} 
+
+._block4{
+  padding:0 7%  0 7%;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+
+/*block_5*/
+.block_5{
+  width: 100%;
+  height: 100vh;
+  background: url(images/block5.png)center no-repeat; 
+  background-size: cover;
+  text-align: center;
+}
+
+.block_5_text{
+padding: 300px 0 0 0;
+}
+
+h4{
+  font-size: 24px;
+  color: #ffffff; 
+  margin:25px;
+}
+
+.inlineblock5{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.email{
+  text-transform: uppercase;
+  padding:20px 50px 20px 20px;
+  border: 0px;
+  border-radius: 5px 0 0 5px; 
+}
+
+.buttom_5{
+  padding:30px;
+  border-radius: 0 5px 5px 0; 
+  background-color: #16a085;
+  border: 0px;
+}
+
+.buttom_5_image{
+  background-image: url(images/icon_block5.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position:  center;
+}
+
+
+/*block_6*/
+.block_6{
+  text-align: center;
+  height: 396px;
+  background-color: #f5f6f7;
+}
+
+.text6{
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 350;
+  line-height: 22px; 
+  margin: 2em 0 3em 0;
+}
+
+h5{
+  padding-top: 5em;
+  font-size: 20px;
+}
+
+.inlineblock6{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.inlineblock6_1{
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+}
+
+.downoload{
+  color: #ffffff; 
+  padding:20px 70px 20px 20px;
+  border: 0px;
+  border-radius: 5px 0 0 5px; 
+  background-color: #1abc9c;
+  text-transform: uppercase;
+}
+
+.android_icon{
+  background-image: url(images/icon_block6.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position:  center;}
+
+.ios_icon{
+  background-image: url(images/icon1_block6.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position:  center;}
+
+/*footer*/
+
+footer{
+  height: 100px;
+  background-color: #fff;
+  font-size: 14px;
+  text-transform:none;
+  padding:0 7% 0 7%;
+}
+
+.image_foo{
+  float: right;
+  margin-top: -4em;
+}
+
+.inlineblock_footer{
+  display: inline-block;
+  display: flex;
+  text-transform: none;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+.footer_link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373737;
+}
+
+._footer{
+color:#16a085;
+margin: 0 0.5em 3em 0.5em;
+}
