@@ -1,0 +1,388 @@
+@font-face {
+	font-family: 'gothamroundedbook';
+	src: url('../fonts/gothamroundedbook_21018.eot');
+	src: local('вє'), url('../fonts/gothamroundedbook_21018.woff') format('woff'), url('../fonts/gothamroundedbook_21018.ttf') format('truetype'), url('../fonts/gothamroundedbook_21018.svg') format('svg');
+	font-weight: 350;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamroundedbold';
+	src: url('../fonts/gothamroundedbold_21016.eot');
+	src: local('вє'), url('../fonts/gothamroundedbold_21016.woff') format('woff'), url('../fonts/gothamroundedbold_21016.ttf') format('truetype'), url('../fonts/gothamroundedbold_21016.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamroundedmedium';
+	src: url('../fonts/gothamroundedmedium_21022.eot');
+	src: local('вє'), url('../fonts/gothamroundedmedium_21022.woff') format('woff'), url('../fonts/gothamroundedmedium_21022.ttf') format('truetype'), url('../fonts/gothamroundedmedium_21022.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+body {
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: auto;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 700;
+  color: #373737;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #16a085;
+  padding: 0 0 45px 0;
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background-color: #16a085;
+  border-radius: 3px;   
+  color: #ffffff; 
+  text-align: center;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.par {
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 350;
+  text-transform: none;
+  padding: 0 0 70px 0;
+}
+
+.container {
+  width:100%;
+  max-width: 760px;
+  margin: 0 auto;
+} 
+
+/*intro*/ 
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url(images/intro.jpg)center no-repeat; 
+  background-size: cover;
+  position: relative;
+  padding-top: 2em;
+}
+
+/*header*/ 
+.header {
+  width: 100%;
+  position: absolute;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff; 
+}
+
+/*intro_text*/ 
+.intro-text {
+  position: absolute; 
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 50%; 
+  margin-left: -220px;
+  color: #ffffff; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
+
+/*get-started-button*/ 
+.get-started-button{
+  position: absolute; 
+  top: 64%;
+  transform: translate(0, -50%);
+  left: 50%; 
+  margin: 0 0 0 -90px;
+}
+
+/*intro-icons*/
+.intro-icons {
+  position: absolute; 
+  top: 95%;
+  transform: translate(0, -50%);
+  left: 50%; 
+  margin-left: -74px;
+}
+
+.icons {
+  padding-left: 15px;
+}
+
+/*block2*/
+
+.block2 {
+  height: 492px;
+  background-color: #f5f6f7;
+  margin: 0;
+  line-height: 24px; 
+}
+
+.block2-margin {
+  padding: 7% 0 0 10%;
+}
+
+.block-2-image {
+  margin: 92px 7% 0 0;
+  height: 400px;
+  float: right;
+}
+
+
+/*block-3*/
+.block-3 {
+  height: 558px;
+  background-color: #fff;
+  line-height: 22px; 
+  margin: 0;
+}
+
+.block3-margin {
+  padding: 7% 0 0 60%;
+}
+
+.block-3-image {
+  margin: 146px 7% 0 0;
+  height: 412px;
+  float: left;
+}
+
+.numbers {
+  letter-spacing: 3.5px;
+  margin-top: 3em;
+}
+
+.brackets3 {
+  border: 0;
+  padding:13px 13px;
+  background-color:#fff;
+  outline: 0;
+  cursor: pointer;
+}
+
+
+/*block-4*/
+.block-4 {
+  height: 484px;
+  background-color: #f5f6f7;
+}
+.brack4 {
+  margin: 0 7% 1em 88%;
+ }
+
+.brackets4 {
+  border: 0;
+  padding: 15px 15px;
+  background-color:#f5f6f7;
+  margin-top: 5em;
+  outline: 0;
+  cursor: pointer;
+}
+
+.bracket-left {
+  background-image: url(images/left.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position:  center;
+
+}
+.bracket-right {
+  background-image: url(images/right.svg);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position:  center;
+}
+
+.block4-text {
+  text-align: center;
+}
+
+
+.our-com {
+  margin: 10px 0 0 0;
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: none;
+}
+
+h3 {
+  margin: 15px 0 0 0;
+  font-size: 16px;
+} 
+
+._block4 {
+  padding: 0 7%  0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/*block-5*/
+.block-5 {
+  width: 100%;
+  height: 100vh;
+  background: url(images/block5.png)center no-repeat; 
+  background-size: cover;
+  text-align: center;
+}
+
+.block-5-text {
+padding: 300px 0 0 0;
+}
+
+h4 {
+  font-size: 24px;
+  color: #ffffff; 
+  margin: 25px;
+}
+
+.inlineblock5 {
+  display: flex;
+  justify-content: center;
+}
+
+.email { 
+  outline: 0;
+  text-transform: uppercase;
+  padding: 20px 50px 20px 20px;
+  border: 0;
+  border-radius: 5px 0 0 5px; 
+}
+
+.button-your-email {
+  outline: 0;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 0 5px 5px 0; 
+  background-color: #16a085;
+  border: 0;
+}
+
+.button-your-email-image {
+  background-image: url(images/icon_block5.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position:  center;
+}
+
+
+/*block-6*/
+.block-6 {
+  text-align: center;
+  height: 396px;
+  background-color: #f5f6f7;
+}
+
+.text6 {
+  font-family: "Gotham Rounded", sans-serif;
+  font-weight: 350;
+  line-height: 22px; 
+  margin: 2em 0 3em 0;
+}
+
+h5 {
+  padding-top: 5em;
+  font-size: 20px;
+}
+
+.inlineblock6 {
+  display: flex;
+  justify-content: center;
+}
+
+.inlineblock6-1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 2em;
+}
+
+.downoload {
+  color: #ffffff; 
+  padding: 20px 60px 20px 20px;
+  border: 0;
+  border-radius: 5px; 
+  background-color: #1abc9c;
+  text-transform: uppercase;
+  outline: 0;
+  cursor: pointer;
+}
+
+.android-icon {
+  background-image: url(images/icon_block6.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95%;
+}
+
+.ios-icon {
+  background-image: url(images/icon1_block6.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 95%;}
+
+/*footer*/
+footer {
+  height: 100px;
+  background-color: #fff;
+  font-size: 14px;
+  text-transform: none;
+  padding: 0 7% 0 7%;
+}
+
+.image-foo {
+  float: right;
+  margin-top: -4em;
+}
+
+.inlineblock-footer {
+  display: inline-block;
+  display: flex;
+  text-transform: none;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+.footer-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #373737;
+}
+
+._footer {
+color:#16a085;
+margin: 0 0.5em 3em 0.5em;
+}
